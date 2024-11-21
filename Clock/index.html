@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* div{
+            line-height: 100vh;
+            text-align: center;
+            font-size: 50px;
+            font-family: arial;
+        } */
+         body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(255, 196, 252, 0.733), #8896e9);
+            color: white;
+         }
+        .clock{
+            width: 400px;
+            height: 400px;
+            border: 10px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 50px;
+            background-color: rgb(224, 107, 219);
+            box-shadow: 0 4px 30px rgb(255, 255, 255);
+        }
+        span{
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="clock">
+        Time: <span></span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
